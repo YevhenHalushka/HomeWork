@@ -56,7 +56,6 @@ def multiple_ints(first_value: int, second_value: int) -> int:
 
 
 
-
 def multiple_ints_with_conversion(first_value: Any, second_value: Any) -> int:
     """
     If possible to convert arguments to int value - convert and multiply them.
@@ -148,12 +147,11 @@ def alphabet() -> dict:
     Examples:
         alphabet()
         >>> {"a": 1, "b": 2 ...}
+
     """
-#import string
 
-#data = {k; v for v, k in enumerate(string.ascii_lowercase)}
 
-#print(data)
+    return dict(enumerate(ascii_lowercase, start=1))
 
 
 def simple_sort(data: List[int]) -> List[list]:
