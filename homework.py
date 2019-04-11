@@ -151,7 +151,7 @@ def alphabet() -> dict:
     """
 
 
-    return dict(enumerate(ascii_lowercase, start=1))
+    #return dict(enumerate(ascii_lowercase, start=1))
 
 
 def simple_sort(data: List[int]) -> List[list]:
