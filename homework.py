@@ -149,7 +149,11 @@ def alphabet() -> dict:
         alphabet()
         >>> {"a": 1, "b": 2 ...}
     """
-    pass
+#import string
+
+#data = {k; v for v, k in enumerate(string.ascii_lowercase)}
+
+#print(data)
 
 
 def simple_sort(data: List[int]) -> List[list]:
